@@ -444,3 +444,74 @@ button.scroll_btn {
 /* LOADER SECTION END */
  
  
+/* SOFTWARE TESTING PAGES */
+.subbanner_section {
+    background-image: linear-gradient(to left, #17475F , #04273B);
+    padding: 90px 0px 70px;
+    margin-bottom: 145px;
+}
+.subbanner_content {
+    color: #fff;
+}
+.subbanner_content h2 {
+    color: #DEF6E4;
+    font-size: 54px;
+    font-weight: 700;
+}
+.subbanner_content p {
+    font-size: 22px;
+    font-weight: 400;
+}
+p.sub_ban_para {
+    padding: 18px 0px 15px;
+}
+
+/* COMMON GRID SECTION START */
+
+.grid_img img {
+    width: 100%;
+}
+
+.common_grid_section {
+    margin-bottom: 190px;
+}
+
+.common_grid_image {
+    position: relative;
+}
+.grid_left_pedding {
+    padding-left: 50px;
+}
+.grid_right_pedding {
+    padding-right: 50px; 
+}
+.grid_img:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #4BC096;
+    left: 15px;
+    top: 15px;
+    z-index: -1;
+}
+
+.common_grid_contant h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.common_grid_contant p {
+    font-size: 22px;
+}
+
+p.grid_para {
+    padding: 16px 0px 14px;
+}
+
+
+/* COMMON GRID SECTION END */
+
+
+
+/* SOFTWARE TESTING PAGES */
