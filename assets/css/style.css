@@ -65,9 +65,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
- 
-
- 
+a.active {
+    color: var(--primary-color) !important;
+}
 
 /* MOBILE MENU SECTION CSS START HERE */
 .mobile-menu .header-top {
@@ -170,6 +170,7 @@ body {
     background-size: cover;
     background-color: #000000a1;
     background-blend-mode: color;
+    background-position: center;
 }
 
 .hero_content {
