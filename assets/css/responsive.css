@@ -119,6 +119,23 @@
     .sub button {
         padding: 15px 50px;
     }
+    .grid_left_pedding, .grid_right_pedding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .direction {
+        flex-direction: column-reverse;
+    }
+    .common_grid_contant {
+        padding-top: 50px;
+    }
+    .subbanner_content { 
+        padding: 50px 0px 40px;
+    }  
+    .common_grid_section {
+        margin-bottom: 90px;
+    }
+
 }
 
 @media screen and (max-width:767px) {
@@ -150,6 +167,15 @@
     }
     .footer_copy {
         padding-top: 27px;
+    }
+    .panel {
+        padding: 0px 20px 0px 20px;
+    }
+    .subbanner_image img {
+        width: 100%;
+    }
+    .subbanner_section {
+        padding-bottom: 100px;
     }
 }
 
@@ -184,6 +210,21 @@
     }
     .sub input {
         padding: 15px 0px 15px 21px;
+    }
+    .subbanner_content h2, .common_grid_contant h2, .faq_title h2 {
+        font-size: 30px;
+    }
+    .faq_title h2 {
+        line-height: 40px;
+    }
+    .subbanner_content p, .common_grid_contant p, .faq_title p, .faq_content p {
+        font-size: 18px;
+    }
+    .ac_title p, .ac_title_box span {
+        font-size: 15px;
+    }
+    .accordion:after {
+        font-size: 15px;
     }
 }
 

@@ -65,7 +65,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
-a.active {
+a.menu-active {
     color: var(--primary-color) !important;
 }
 
@@ -508,10 +508,130 @@ p.sub_ban_para {
 p.grid_para {
     padding: 16px 0px 14px;
 }
-
-
 /* COMMON GRID SECTION END */
 
+/* FAQ SECTION START HERE */
+.faq_section {
+    background-image: linear-gradient(to left, #17475F , #04273B);
+    padding: 103px 0px 114px;
+}
+.faq_title p {
+    font-size: 22px;
+    padding: 25px 0px 70px;
+}
+
+.faq_title h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.faq_title {
+    color: #fff;
+    max-width: 952px;
+}
+.accordion {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+.accordion:hover.accordion:after {
+    color: var(--primary-color);
+}
+
+.accordion:after {
+    content: '\f077';
+    font-family: "Font Awesome 6 Free";
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\f078";
+    color: #fff;
+}
+button.accordion.active:after {
+    color: var(--primary-color);
+}
+  
+.panel {
+    padding: 0px 200px 0px 90px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #fff;
+}
+.faq_content { 
+    padding-top: 47px;
+}
+ 
+.faq_content p {
+    font-size: 22px;
+    padding-bottom: 0;
+}
+
+.accordion__item {
+    margin-bottom: 40px;
+}
+
+button.accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.ac_title p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ac_title_box {
+    display: flex;
+    align-items: center;
+}
+
+.ac_title_box span {
+    font-size: 30px; 
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+/* FAQ SECTION END HERE */
 
 
 /* SOFTWARE TESTING PAGES */
+
+
+/* TESTING SOFTWARE START */
+.subbanner_list ul {
+    margin: 0;
+    padding: 0;
+}
+.subbanner_list ul li {
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    font-size: 10px;
+    padding-right: 70px;
+}
+.testing_subbanner p {
+    margin: 0;
+    padding: 0;
+}
+/* TESTING SOFTWARE END */
